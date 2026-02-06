@@ -1,0 +1,14 @@
+2026-01-28 20:21:17,110 | INFO | datacleaning | 🧹 Data Cleaning Started
+2026-01-28 20:21:17,110 | INFO | datacleaning | 📐 Data shape (before cleaning): (7043, 24)
+2026-01-28 20:21:17,110 | INFO | datacleaning | 📋 Columns before cleaning: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile']
+2026-01-28 20:21:17,149 | INFO | datacleaning | 🧪 Synthetic column 'simtype' added
+2026-01-28 20:21:17,149 | INFO | datacleaning | 📐 Data shape (after cleaning): (7043, 25)
+2026-01-28 20:21:17,150 | INFO | datacleaning | 📋 Columns after cleaning: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile', 'simtype']
+2026-01-28 20:21:17,310 | INFO | datacleaning | ✅ Cleaned data saved at artifacts\cleaned_data.csv
+2026-02-06 15:50:16,855 | INFO | datacleaning | 🧹 Data Cleaning Started
+2026-02-06 15:50:16,856 | INFO | datacleaning | 📐 Data shape (before cleaning): (7043, 24)
+2026-02-06 15:50:16,857 | INFO | datacleaning | 📋 Columns before cleaning: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile']
+2026-02-06 15:50:16,898 | INFO | datacleaning | 🧪 Synthetic column 'simtype' added
+2026-02-06 15:50:16,899 | INFO | datacleaning | 📐 Data shape (after cleaning): (7043, 25)
+2026-02-06 15:50:16,899 | INFO | datacleaning | 📋 Columns after cleaning: ['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile', 'simtype']
+2026-02-06 15:50:17,038 | INFO | datacleaning | ✅ Cleaned data saved at artifacts\cleaned_data.csv

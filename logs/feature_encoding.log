@@ -1,0 +1,52 @@
+2026-01-28 20:21:17,681 | INFO | feature_encoding | 📊 FEATURE ENCODING INITIALIZED
+2026-01-28 20:21:17,682 | INFO | feature_encoding | Dropped columns: ['customerID']
+2026-01-28 20:21:17,682 | INFO | feature_encoding | Categorical columns (20): ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TotalCharges', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile', 'simtype']
+2026-01-28 20:21:17,683 | INFO | feature_encoding | X_train shape before encoding: (5634, 23)
+2026-01-28 20:21:17,684 | INFO | feature_encoding | X_test shape before encoding: (1409, 23)
+2026-01-28 20:21:17,940 | INFO | feature_encoding | 🔢 Label encoded column: gender
+2026-01-28 20:21:18,139 | INFO | feature_encoding | 🔢 Label encoded column: Partner
+2026-01-28 20:21:18,371 | INFO | feature_encoding | 🔢 Label encoded column: Dependents
+2026-01-28 20:21:18,570 | INFO | feature_encoding | 🔢 Label encoded column: PhoneService
+2026-01-28 20:21:18,574 | INFO | feature_encoding | 📈 Frequency encoded column: MultipleLines
+2026-01-28 20:21:18,579 | INFO | feature_encoding | 📈 Frequency encoded column: InternetService
+2026-01-28 20:21:18,587 | INFO | feature_encoding | 📈 Frequency encoded column: OnlineSecurity
+2026-01-28 20:21:18,591 | INFO | feature_encoding | 📈 Frequency encoded column: OnlineBackup
+2026-01-28 20:21:18,598 | INFO | feature_encoding | 📈 Frequency encoded column: DeviceProtection
+2026-01-28 20:21:18,603 | INFO | feature_encoding | 📈 Frequency encoded column: TechSupport
+2026-01-28 20:21:18,611 | INFO | feature_encoding | 📈 Frequency encoded column: StreamingTV
+2026-01-28 20:21:18,616 | INFO | feature_encoding | 📈 Frequency encoded column: StreamingMovies
+2026-01-28 20:21:18,620 | INFO | feature_encoding | 📈 Frequency encoded column: Contract
+2026-01-28 20:21:18,860 | INFO | feature_encoding | 🔢 Label encoded column: PaperlessBilling
+2026-01-28 20:21:18,867 | INFO | feature_encoding | 📈 Frequency encoded column: PaymentMethod
+2026-01-28 20:21:18,883 | INFO | feature_encoding | 📈 Frequency encoded column: TotalCharges
+2026-01-28 20:21:18,893 | INFO | feature_encoding | 📈 Frequency encoded column: SIM_Operator
+2026-01-28 20:21:18,898 | INFO | feature_encoding | 📈 Frequency encoded column: Tenure_Quarter
+2026-01-28 20:21:18,903 | INFO | feature_encoding | 📈 Frequency encoded column: Charges_Quartile
+2026-01-28 20:21:18,915 | INFO | feature_encoding | 📈 Frequency encoded column: simtype
+2026-01-28 20:21:18,948 | INFO | feature_encoding | 📐 Shapes after encoding | X_train: (5634, 23), X_test: (1409, 23)
+2026-02-06 15:50:17,379 | INFO | feature_encoding | 📊 FEATURE ENCODING INITIALIZED
+2026-02-06 15:50:17,379 | INFO | feature_encoding | Dropped columns: ['customerID']
+2026-02-06 15:50:17,380 | INFO | feature_encoding | Categorical columns (20): ['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'TotalCharges', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile', 'simtype']
+2026-02-06 15:50:17,381 | INFO | feature_encoding | X_train shape before encoding: (5634, 23)
+2026-02-06 15:50:17,381 | INFO | feature_encoding | X_test shape before encoding: (1409, 23)
+2026-02-06 15:50:17,604 | INFO | feature_encoding | 🔢 Label encoded column: gender
+2026-02-06 15:50:17,842 | INFO | feature_encoding | 🔢 Label encoded column: Partner
+2026-02-06 15:50:18,075 | INFO | feature_encoding | 🔢 Label encoded column: Dependents
+2026-02-06 15:50:18,312 | INFO | feature_encoding | 🔢 Label encoded column: PhoneService
+2026-02-06 15:50:18,317 | INFO | feature_encoding | 📈 Frequency encoded column: MultipleLines
+2026-02-06 15:50:18,323 | INFO | feature_encoding | 📈 Frequency encoded column: InternetService
+2026-02-06 15:50:18,330 | INFO | feature_encoding | 📈 Frequency encoded column: OnlineSecurity
+2026-02-06 15:50:18,337 | INFO | feature_encoding | 📈 Frequency encoded column: OnlineBackup
+2026-02-06 15:50:18,344 | INFO | feature_encoding | 📈 Frequency encoded column: DeviceProtection
+2026-02-06 15:50:18,352 | INFO | feature_encoding | 📈 Frequency encoded column: TechSupport
+2026-02-06 15:50:18,359 | INFO | feature_encoding | 📈 Frequency encoded column: StreamingTV
+2026-02-06 15:50:18,370 | INFO | feature_encoding | 📈 Frequency encoded column: StreamingMovies
+2026-02-06 15:50:18,377 | INFO | feature_encoding | 📈 Frequency encoded column: Contract
+2026-02-06 15:50:18,609 | INFO | feature_encoding | 🔢 Label encoded column: PaperlessBilling
+2026-02-06 15:50:18,614 | INFO | feature_encoding | 📈 Frequency encoded column: PaymentMethod
+2026-02-06 15:50:18,621 | INFO | feature_encoding | 📈 Frequency encoded column: TotalCharges
+2026-02-06 15:50:18,625 | INFO | feature_encoding | 📈 Frequency encoded column: SIM_Operator
+2026-02-06 15:50:18,631 | INFO | feature_encoding | 📈 Frequency encoded column: Tenure_Quarter
+2026-02-06 15:50:18,635 | INFO | feature_encoding | 📈 Frequency encoded column: Charges_Quartile
+2026-02-06 15:50:18,644 | INFO | feature_encoding | 📈 Frequency encoded column: simtype
+2026-02-06 15:50:18,676 | INFO | feature_encoding | 📐 Shapes after encoding | X_train: (5634, 23), X_test: (1409, 23)

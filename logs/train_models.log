@@ -1,0 +1,204 @@
+2026-01-28 20:21:26,974 | INFO | train_models | 🚀 Training all models started...
+2026-01-28 20:21:27,349 | INFO | train_models | 
+===== Logistic Regression =====
+2026-01-28 20:21:27,349 | INFO | train_models | Accuracy : 0.7211
+2026-01-28 20:21:27,349 | INFO | train_models | ROC-AUC  : 0.8150
+2026-01-28 20:21:27,362 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.90      0.70      0.79      1035
+           1       0.48      0.78      0.60       374
+
+    accuracy                           0.72      1409
+   macro avg       0.69      0.74      0.69      1409
+weighted avg       0.79      0.72      0.74      1409
+
+2026-01-28 20:21:27,467 | INFO | train_models | 
+===== KNN =====
+2026-01-28 20:21:27,468 | INFO | train_models | Accuracy : 0.6927
+2026-01-28 20:21:27,468 | INFO | train_models | ROC-AUC  : 0.7230
+2026-01-28 20:21:27,484 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.79      0.80      0.79      1035
+           1       0.42      0.40      0.41       374
+
+    accuracy                           0.69      1409
+   macro avg       0.60      0.60      0.60      1409
+weighted avg       0.69      0.69      0.69      1409
+
+2026-01-28 20:21:27,510 | INFO | train_models | 
+===== Naive Bayes =====
+2026-01-28 20:21:27,510 | INFO | train_models | Accuracy : 0.7026
+2026-01-28 20:21:27,510 | INFO | train_models | ROC-AUC  : 0.8160
+2026-01-28 20:21:27,543 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.92      0.66      0.76      1035
+           1       0.47      0.83      0.60       374
+
+    accuracy                           0.70      1409
+   macro avg       0.69      0.74      0.68      1409
+weighted avg       0.80      0.70      0.72      1409
+
+2026-01-28 20:21:27,587 | INFO | train_models | 
+===== Decision Tree =====
+2026-01-28 20:21:27,588 | INFO | train_models | Accuracy : 0.6998
+2026-01-28 20:21:27,588 | INFO | train_models | ROC-AUC  : 0.7563
+2026-01-28 20:21:27,619 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.88      0.68      0.77      1035
+           1       0.46      0.75      0.57       374
+
+    accuracy                           0.70      1409
+   macro avg       0.67      0.72      0.67      1409
+weighted avg       0.77      0.70      0.72      1409
+
+2026-01-28 20:21:28,713 | INFO | train_models | 
+===== Random Forest =====
+2026-01-28 20:21:28,713 | INFO | train_models | Accuracy : 0.7019
+2026-01-28 20:21:28,713 | INFO | train_models | ROC-AUC  : 0.7768
+2026-01-28 20:21:28,725 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.89      0.68      0.77      1035
+           1       0.46      0.76      0.57       374
+
+    accuracy                           0.70      1409
+   macro avg       0.67      0.72      0.67      1409
+weighted avg       0.77      0.70      0.72      1409
+
+2026-01-28 20:21:29,862 | INFO | train_models | 
+===== AdaBoost =====
+2026-01-28 20:21:29,863 | INFO | train_models | Accuracy : 0.7147
+2026-01-28 20:21:29,863 | INFO | train_models | ROC-AUC  : 0.8182
+2026-01-28 20:21:29,876 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.90      0.69      0.78      1035
+           1       0.48      0.78      0.59       374
+
+    accuracy                           0.71      1409
+   macro avg       0.69      0.73      0.69      1409
+weighted avg       0.78      0.71      0.73      1409
+
+2026-01-28 20:21:30,164 | INFO | train_models | 
+===== XGBoost =====
+2026-01-28 20:21:30,165 | INFO | train_models | Accuracy : 0.7104
+2026-01-28 20:21:30,165 | INFO | train_models | ROC-AUC  : 0.8091
+2026-01-28 20:21:30,187 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.90      0.68      0.77      1035
+           1       0.47      0.80      0.59       374
+
+    accuracy                           0.71      1409
+   macro avg       0.69      0.74      0.68      1409
+weighted avg       0.79      0.71      0.73      1409
+
+2026-01-28 20:21:38,885 | INFO | train_models | 🏆 Best Model: AdaBoost | AUC=0.8182
+2026-01-28 20:21:39,055 | INFO | train_models | 💾 Best model saved: artifacts/best_model.pkl
+2026-01-28 20:21:39,055 | INFO | train_models | ℹ️ Best model does not use scaler
+2026-02-06 15:50:26,637 | INFO | train_models | 🚀 Training all models started...
+2026-02-06 15:50:27,013 | INFO | train_models | 
+===== Logistic Regression =====
+2026-02-06 15:50:27,014 | INFO | train_models | Accuracy : 0.7211
+2026-02-06 15:50:27,014 | INFO | train_models | ROC-AUC  : 0.8150
+2026-02-06 15:50:27,042 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.90      0.70      0.79      1035
+           1       0.48      0.78      0.60       374
+
+    accuracy                           0.72      1409
+   macro avg       0.69      0.74      0.69      1409
+weighted avg       0.79      0.72      0.74      1409
+
+2026-02-06 15:50:27,156 | INFO | train_models | 
+===== KNN =====
+2026-02-06 15:50:27,157 | INFO | train_models | Accuracy : 0.6927
+2026-02-06 15:50:27,157 | INFO | train_models | ROC-AUC  : 0.7230
+2026-02-06 15:50:27,173 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.79      0.80      0.79      1035
+           1       0.42      0.40      0.41       374
+
+    accuracy                           0.69      1409
+   macro avg       0.60      0.60      0.60      1409
+weighted avg       0.69      0.69      0.69      1409
+
+2026-02-06 15:50:27,198 | INFO | train_models | 
+===== Naive Bayes =====
+2026-02-06 15:50:27,199 | INFO | train_models | Accuracy : 0.7026
+2026-02-06 15:50:27,199 | INFO | train_models | ROC-AUC  : 0.8160
+2026-02-06 15:50:27,219 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.92      0.66      0.76      1035
+           1       0.47      0.83      0.60       374
+
+    accuracy                           0.70      1409
+   macro avg       0.69      0.74      0.68      1409
+weighted avg       0.80      0.70      0.72      1409
+
+2026-02-06 15:50:27,253 | INFO | train_models | 
+===== Decision Tree =====
+2026-02-06 15:50:27,254 | INFO | train_models | Accuracy : 0.6998
+2026-02-06 15:50:27,254 | INFO | train_models | ROC-AUC  : 0.7563
+2026-02-06 15:50:27,277 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.88      0.68      0.77      1035
+           1       0.46      0.75      0.57       374
+
+    accuracy                           0.70      1409
+   macro avg       0.67      0.72      0.67      1409
+weighted avg       0.77      0.70      0.72      1409
+
+2026-02-06 15:50:28,432 | INFO | train_models | 
+===== Random Forest =====
+2026-02-06 15:50:28,432 | INFO | train_models | Accuracy : 0.7019
+2026-02-06 15:50:28,432 | INFO | train_models | ROC-AUC  : 0.7768
+2026-02-06 15:50:28,456 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.89      0.68      0.77      1035
+           1       0.46      0.76      0.57       374
+
+    accuracy                           0.70      1409
+   macro avg       0.67      0.72      0.67      1409
+weighted avg       0.77      0.70      0.72      1409
+
+2026-02-06 15:50:29,753 | INFO | train_models | 
+===== AdaBoost =====
+2026-02-06 15:50:29,753 | INFO | train_models | Accuracy : 0.7147
+2026-02-06 15:50:29,753 | INFO | train_models | ROC-AUC  : 0.8182
+2026-02-06 15:50:29,775 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.90      0.69      0.78      1035
+           1       0.48      0.78      0.59       374
+
+    accuracy                           0.71      1409
+   macro avg       0.69      0.73      0.69      1409
+weighted avg       0.78      0.71      0.73      1409
+
+2026-02-06 15:50:30,084 | INFO | train_models | 
+===== XGBoost =====
+2026-02-06 15:50:30,085 | INFO | train_models | Accuracy : 0.7104
+2026-02-06 15:50:30,085 | INFO | train_models | ROC-AUC  : 0.8091
+2026-02-06 15:50:30,108 | INFO | train_models | 
+              precision    recall  f1-score   support
+
+           0       0.90      0.68      0.77      1035
+           1       0.47      0.80      0.59       374
+
+    accuracy                           0.71      1409
+   macro avg       0.69      0.74      0.68      1409
+weighted avg       0.79      0.71      0.73      1409
+
+2026-02-06 15:50:39,211 | INFO | train_models | 🏆 Best Model: AdaBoost | AUC=0.8182
+2026-02-06 15:50:39,422 | INFO | train_models | 💾 Best model saved: artifacts/best_model.pkl
+2026-02-06 15:50:39,423 | INFO | train_models | ℹ️ Best model does not use scaler

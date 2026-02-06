@@ -1,0 +1,42 @@
+2026-01-28 20:21:10,664 | INFO | main | 📥 Loading dataset
+2026-01-28 20:21:10,719 | INFO | main | Dataset loaded | Shape: (7043, 21)
+2026-01-28 20:21:10,719 | INFO | main | 📊 Running visualisation
+2026-01-28 20:21:17,109 | INFO | main | 🧹 Data Cleaning
+2026-01-28 20:21:17,311 | INFO | main | 💧 Missing value handling
+2026-01-28 20:21:17,342 | INFO | main | Train/Test shapes | X_train: (5634, 23), X_test: (1409, 23)
+2026-01-28 20:21:17,367 | INFO | main | ✅ Missing value imputation done
+2026-01-28 20:21:17,373 | INFO | main | 🔄 Outlier handling
+2026-01-28 20:21:17,589 | INFO | main | ✅ Outlier handling completed | X_train shape: (5634, 23)
+2026-01-28 20:21:17,595 | INFO | main | 🧹 Filling missing values in categorical columns
+2026-01-28 20:21:17,666 | INFO | main | ✅ Categorical NaNs handled safely
+2026-01-28 20:21:17,667 | INFO | main | 🔢 Feature Encoding
+2026-01-28 20:21:18,949 | INFO | main | ✅ Feature encoding completed
+2026-01-28 20:21:18,950 | INFO | main | 🔄 Variable Transformation Started
+2026-01-28 20:21:23,028 | INFO | main | ✅ Variable Transformation Completed
+2026-01-28 20:21:23,030 | INFO | main | 🔄 Feature Selection Started
+2026-01-28 20:21:26,875 | INFO | main | ✅ Feature selection completed | X_train: (5634, 5) | Selected numerical features: 5
+2026-01-28 20:21:26,875 | INFO | main | ⚖️ Data Balancing
+2026-01-28 20:21:26,973 | INFO | main | ✅ Data balancing completed | X_train_final: (8278, 5)
+2026-01-28 20:21:26,973 | INFO | main | 🤖 Model Training
+2026-01-28 20:21:39,060 | INFO | main | 🎯 PIPELINE EXECUTION COMPLETED SUCCESSFULLY
+2026-02-06 15:50:08,878 | INFO | main | 📥 Loading dataset
+2026-02-06 15:50:08,942 | INFO | main | Dataset loaded | Shape: (7043, 21)
+2026-02-06 15:50:08,943 | INFO | main | 📊 Running visualisation
+2026-02-06 15:50:16,855 | INFO | main | 🧹 Data Cleaning
+2026-02-06 15:50:17,038 | INFO | main | 💧 Missing value handling
+2026-02-06 15:50:17,062 | INFO | main | Train/Test shapes | X_train: (5634, 23), X_test: (1409, 23)
+2026-02-06 15:50:17,084 | INFO | main | ✅ Missing value imputation done
+2026-02-06 15:50:17,085 | INFO | main | 🔄 Outlier handling
+2026-02-06 15:50:17,288 | INFO | main | ✅ Outlier handling completed | X_train shape: (5634, 23)
+2026-02-06 15:50:17,293 | INFO | main | 🧹 Filling missing values in categorical columns
+2026-02-06 15:50:17,363 | INFO | main | ✅ Categorical NaNs handled safely
+2026-02-06 15:50:17,364 | INFO | main | 🔢 Feature Encoding
+2026-02-06 15:50:18,678 | INFO | main | ✅ Feature encoding completed
+2026-02-06 15:50:18,679 | INFO | main | 🔄 Variable Transformation Started
+2026-02-06 15:50:22,680 | INFO | main | ✅ Variable Transformation Completed
+2026-02-06 15:50:22,681 | INFO | main | 🔄 Feature Selection Started
+2026-02-06 15:50:26,531 | INFO | main | ✅ Feature selection completed | X_train: (5634, 5) | Selected numerical features: 5
+2026-02-06 15:50:26,532 | INFO | main | ⚖️ Data Balancing
+2026-02-06 15:50:26,635 | INFO | main | ✅ Data balancing completed | X_train_final: (8278, 5)
+2026-02-06 15:50:26,636 | INFO | main | 🤖 Model Training
+2026-02-06 15:50:39,428 | INFO | main | 🎯 PIPELINE EXECUTION COMPLETED SUCCESSFULLY

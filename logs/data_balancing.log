@@ -1,0 +1,36 @@
+2026-01-28 20:21:26,877 | INFO | data_balancing | ⚖️ Selecting best data balancing method
+2026-01-28 20:21:26,879 | INFO | data_balancing | Before balancing: Counter({0: 4139, 1: 1495})
+2026-01-28 20:21:26,880 | INFO | data_balancing | 🔁 Applying SMOTE
+2026-01-28 20:21:26,922 | ERROR | data_balancing | ❌ SMOTE failed
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\data_balancing.py", line 59, in select_best_method
+    X_res, y_res = self._apply_sampler(sampler, name)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Suresh Goud\Documents\project intern\data_balancing.py", line 33, in _apply_sampler
+    sampler.sample_indices_
+AttributeError: 'SMOTE' object has no attribute 'sample_indices_'
+2026-01-28 20:21:26,925 | INFO | data_balancing | 🔁 Applying RandomOverSampler
+2026-01-28 20:21:26,937 | INFO | data_balancing | 🔁 Applying RandomUnderSampler
+2026-01-28 20:21:26,953 | INFO | data_balancing | After balancing (RandomOverSampler): Counter({0: 4139, 1: 4139})
+2026-01-28 20:21:26,955 | INFO | data_balancing | Final X_train shape: (8278, 5)
+2026-01-28 20:21:26,955 | INFO | data_balancing | Final X_test shape : (1409, 5)
+2026-01-28 20:21:26,956 | INFO | data_balancing | 📏 Scaling numeric features
+2026-01-28 20:21:26,970 | INFO | data_balancing | ✅ Scaling completed
+2026-02-06 15:50:26,534 | INFO | data_balancing | ⚖️ Selecting best data balancing method
+2026-02-06 15:50:26,537 | INFO | data_balancing | Before balancing: Counter({0: 4139, 1: 1495})
+2026-02-06 15:50:26,538 | INFO | data_balancing | 🔁 Applying SMOTE
+2026-02-06 15:50:26,575 | ERROR | data_balancing | ❌ SMOTE failed
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\data_balancing.py", line 59, in select_best_method
+    X_res, y_res = self._apply_sampler(sampler, name)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Suresh Goud\Documents\project intern\data_balancing.py", line 33, in _apply_sampler
+    sampler.sample_indices_
+AttributeError: 'SMOTE' object has no attribute 'sample_indices_'
+2026-02-06 15:50:26,577 | INFO | data_balancing | 🔁 Applying RandomOverSampler
+2026-02-06 15:50:26,591 | INFO | data_balancing | 🔁 Applying RandomUnderSampler
+2026-02-06 15:50:26,611 | INFO | data_balancing | After balancing (RandomOverSampler): Counter({0: 4139, 1: 4139})
+2026-02-06 15:50:26,615 | INFO | data_balancing | Final X_train shape: (8278, 5)
+2026-02-06 15:50:26,616 | INFO | data_balancing | Final X_test shape : (1409, 5)
+2026-02-06 15:50:26,617 | INFO | data_balancing | 📏 Scaling numeric features
+2026-02-06 15:50:26,632 | INFO | data_balancing | ✅ Scaling completed

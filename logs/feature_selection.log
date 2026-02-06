@@ -1,0 +1,32 @@
+2026-01-28 20:21:23,030 | INFO | feature_selection | Identifying numerical and categorical columns
+2026-01-28 20:21:23,032 | INFO | feature_selection | Numerical Columns: ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile', 'simtype']
+2026-01-28 20:21:23,032 | INFO | feature_selection | Categorical Columns: []
+2026-01-28 20:21:23,033 | INFO | feature_selection | Preparing numerical datasets
+2026-01-28 20:21:23,040 | INFO | feature_selection | X_train numerical shape: (5634, 23)
+2026-01-28 20:21:23,040 | INFO | feature_selection | X_test numerical shape : (1409, 23)
+2026-01-28 20:21:23,041 | INFO | feature_selection | Applying Constant & Quasi-Constant Feature Selection
+2026-01-28 20:21:23,057 | INFO | feature_selection | Applying Variance Threshold
+2026-01-28 20:21:23,068 | INFO | feature_selection | Applying Correlation Method
+2026-01-28 20:21:23,103 | INFO | feature_selection | Applying ANOVA F-Test
+2026-01-28 20:21:23,115 | INFO | feature_selection | Applying LASSO (Standard Scaling)
+2026-01-28 20:21:23,240 | INFO | feature_selection | Applying Tree-Based Feature Selection
+2026-01-28 20:21:26,870 | INFO | feature_selection | Selecting best features using voting
+2026-01-28 20:21:26,870 | INFO | feature_selection | BEST  FEATURES: ['Contract', 'tenure', 'SIM_Operator', 'OnlineSecurity', 'Tenure_Quarter']
+2026-01-28 20:21:26,872 | INFO | feature_selection | Final X_train shape: (5634, 5)
+2026-01-28 20:21:26,873 | INFO | feature_selection | Final X_test shape : (1409, 5)
+2026-02-06 15:50:22,682 | INFO | feature_selection | Identifying numerical and categorical columns
+2026-02-06 15:50:22,688 | INFO | feature_selection | Numerical Columns: ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'SIM_Operator', 'Tenure_Quarter', 'Charges_Quartile', 'simtype']
+2026-02-06 15:50:22,688 | INFO | feature_selection | Categorical Columns: []
+2026-02-06 15:50:22,689 | INFO | feature_selection | Preparing numerical datasets
+2026-02-06 15:50:22,691 | INFO | feature_selection | X_train numerical shape: (5634, 23)
+2026-02-06 15:50:22,692 | INFO | feature_selection | X_test numerical shape : (1409, 23)
+2026-02-06 15:50:22,693 | INFO | feature_selection | Applying Constant & Quasi-Constant Feature Selection
+2026-02-06 15:50:22,703 | INFO | feature_selection | Applying Variance Threshold
+2026-02-06 15:50:22,713 | INFO | feature_selection | Applying Correlation Method
+2026-02-06 15:50:22,747 | INFO | feature_selection | Applying ANOVA F-Test
+2026-02-06 15:50:22,763 | INFO | feature_selection | Applying LASSO (Standard Scaling)
+2026-02-06 15:50:22,910 | INFO | feature_selection | Applying Tree-Based Feature Selection
+2026-02-06 15:50:26,526 | INFO | feature_selection | Selecting best features using voting
+2026-02-06 15:50:26,526 | INFO | feature_selection | BEST  FEATURES: ['Contract', 'tenure', 'SIM_Operator', 'OnlineSecurity', 'Tenure_Quarter']
+2026-02-06 15:50:26,529 | INFO | feature_selection | Final X_train shape: (5634, 5)
+2026-02-06 15:50:26,529 | INFO | feature_selection | Final X_test shape : (1409, 5)

@@ -1,0 +1,28 @@
+2026-01-28 20:21:10,719 | INFO | visualisation | Visualisation pipeline started
+2026-01-28 20:21:10,731 | INFO | visualisation | SIM_Operator column added
+2026-01-28 20:21:10,848 | INFO | visualisation | Dataset saved at outputs/Telco_with_SIM.csv
+2026-01-28 20:21:11,685 | INFO | visualisation | Plot saved: outputs/plots\churn_distribution.png
+2026-01-28 20:21:12,560 | INFO | visualisation | Plot saved: outputs/plots\gender_distribution.png
+2026-01-28 20:21:13,182 | INFO | visualisation | Plot saved: outputs/plots\tenure_vs_churn.png
+2026-01-28 20:21:13,760 | INFO | visualisation | Plot saved: outputs/plots\payment_vs_churn.png
+2026-01-28 20:21:14,383 | INFO | visualisation | Plot saved: outputs/plots\monthly_charges_vs_churn.png
+2026-01-28 20:21:14,895 | INFO | visualisation | Plot saved: outputs/plots\churn_vs_contract.png
+2026-01-28 20:21:15,423 | INFO | visualisation | Plot saved: outputs/plots\churn_vs_gender.png
+2026-01-28 20:21:15,968 | INFO | visualisation | Plot saved: outputs/plots\gender_vs_internet.png
+2026-01-28 20:21:16,537 | INFO | visualisation | Plot saved: outputs/plots\churn_vs_sim_operator.png
+2026-01-28 20:21:17,109 | INFO | visualisation | Plot saved: outputs/plots\sim_operator_vs_gender.png
+2026-01-28 20:21:17,109 | INFO | visualisation | Visualisation pipeline completed successfully
+2026-02-06 15:50:08,943 | INFO | visualisation | Visualisation pipeline started
+2026-02-06 15:50:08,955 | INFO | visualisation | SIM_Operator column added
+2026-02-06 15:50:09,057 | INFO | visualisation | Dataset saved at outputs/Telco_with_SIM.csv
+2026-02-06 15:50:09,942 | INFO | visualisation | Plot saved: outputs/plots\churn_distribution.png
+2026-02-06 15:50:11,416 | INFO | visualisation | Plot saved: outputs/plots\gender_distribution.png
+2026-02-06 15:50:12,572 | INFO | visualisation | Plot saved: outputs/plots\tenure_vs_churn.png
+2026-02-06 15:50:13,345 | INFO | visualisation | Plot saved: outputs/plots\payment_vs_churn.png
+2026-02-06 15:50:13,923 | INFO | visualisation | Plot saved: outputs/plots\monthly_charges_vs_churn.png
+2026-02-06 15:50:14,462 | INFO | visualisation | Plot saved: outputs/plots\churn_vs_contract.png
+2026-02-06 15:50:15,059 | INFO | visualisation | Plot saved: outputs/plots\churn_vs_gender.png
+2026-02-06 15:50:15,661 | INFO | visualisation | Plot saved: outputs/plots\gender_vs_internet.png
+2026-02-06 15:50:16,258 | INFO | visualisation | Plot saved: outputs/plots\churn_vs_sim_operator.png
+2026-02-06 15:50:16,854 | INFO | visualisation | Plot saved: outputs/plots\sim_operator_vs_gender.png
+2026-02-06 15:50:16,854 | INFO | visualisation | Visualisation pipeline completed successfully

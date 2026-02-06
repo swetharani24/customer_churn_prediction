@@ -1,0 +1,86 @@
+2026-01-28 20:21:17,384 | INFO | outliers | Original Outliers per column: {'SeniorCitizen': np.int64(920), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)}
+2026-01-28 20:21:17,413 | INFO | outliers | iqr_method handled outliers: {'SeniorCitizen': np.int64(920), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 920
+2026-01-28 20:21:17,415 | ERROR | outliers | ❌ Boxplot saving failed for technique: iqr_method
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-01-28 20:21:17,452 | INFO | outliers | zscore_method handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-01-28 20:21:17,454 | ERROR | outliers | ❌ Boxplot saving failed for technique: zscore_method
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-01-28 20:21:17,495 | INFO | outliers | winsorization handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-01-28 20:21:17,495 | ERROR | outliers | ❌ Boxplot saving failed for technique: winsorization
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-01-28 20:21:17,535 | INFO | outliers | clipping handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-01-28 20:21:17,536 | ERROR | outliers | ❌ Boxplot saving failed for technique: clipping
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-01-28 20:21:17,559 | INFO | outliers | log_outlier handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-01-28 20:21:17,560 | ERROR | outliers | ❌ Boxplot saving failed for technique: log_outlier
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-01-28 20:21:17,587 | INFO | outliers | no_outlier handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-01-28 20:21:17,588 | ERROR | outliers | ❌ Boxplot saving failed for technique: no_outlier
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-02-06 15:50:17,094 | INFO | outliers | Original Outliers per column: {'SeniorCitizen': np.int64(920), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)}
+2026-02-06 15:50:17,121 | INFO | outliers | iqr_method handled outliers: {'SeniorCitizen': np.int64(920), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 920
+2026-02-06 15:50:17,123 | ERROR | outliers | ❌ Boxplot saving failed for technique: iqr_method
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-02-06 15:50:17,161 | INFO | outliers | zscore_method handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-02-06 15:50:17,162 | ERROR | outliers | ❌ Boxplot saving failed for technique: zscore_method
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-02-06 15:50:17,215 | INFO | outliers | winsorization handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-02-06 15:50:17,215 | ERROR | outliers | ❌ Boxplot saving failed for technique: winsorization
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-02-06 15:50:17,249 | INFO | outliers | clipping handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-02-06 15:50:17,249 | ERROR | outliers | ❌ Boxplot saving failed for technique: clipping
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-02-06 15:50:17,271 | INFO | outliers | log_outlier handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-02-06 15:50:17,272 | ERROR | outliers | ❌ Boxplot saving failed for technique: log_outlier
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
+2026-02-06 15:50:17,286 | INFO | outliers | no_outlier handled outliers: {'SeniorCitizen': np.int64(0), 'tenure': np.int64(0), 'MonthlyCharges': np.int64(0)} | Total handled: 0
+2026-02-06 15:50:17,286 | ERROR | outliers | ❌ Boxplot saving failed for technique: no_outlier
+Traceback (most recent call last):
+  File "C:\Users\Suresh Goud\Documents\project intern\outliers.py", line 104, in save_boxplots
+    plot_dir = os.path.join(base_dir, ploy_outliers.plot_dir)
+                                      ^^^^^^^^^^^^^
+NameError: name 'ploy_outliers' is not defined
